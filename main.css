@@ -1,0 +1,43 @@
+.introduction {
+    font-family: sans-serif, Impact;
+    margin-top: 8em;
+    margin-left: 10em;
+}
+
+.introduction h1 {
+    font-size: 32pt;
+}
+
+.introduction p {
+    font-size: 16pt;
+}
+
+.introduction li,a {
+    text-decoration: none;
+    font-size: 16pt;
+    color: cadetblue;
+    line-height: 2em;
+}
+
+.top-nav {
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.top-nav li {
+    font-family: sans-serif;
+    list-style-type: none;
+    font-size: 1em;
+    display: inline;
+    margin-right: 2em;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+.bio {
+    margin-right: 10em;
+    line-height: 2em;
+}
