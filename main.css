@@ -1,30 +1,44 @@
-.introduction {
+.introduction
+{
     font-family: sans-serif, Impact;
-    margin-top: 8em;
+    margin-top: 6em;
     margin-left: 10em;
 }
 
-.introduction h1 {
+.introduction h1
+{
     font-size: 32pt;
 }
 
-.introduction p {
+.introduction p
+{
     font-size: 16pt;
 }
 
-.introduction li,a {
+.introduction li,a
+{
     text-decoration: none;
     font-size: 16pt;
     color: cadetblue;
     line-height: 2em;
 }
 
-.top-nav {
+.fishing_img
+{
+    display: block;
+    margin-top: 4em;
+    margin-left: 10em;
+    width: 50%;
+}
+
+.top-nav
+{
     margin-left: 2em;
     margin-top: 2em;
 }
 
-.top-nav li {
+.top-nav li
+{
     font-family: sans-serif;
     list-style-type: none;
     font-size: 1em;
@@ -32,12 +46,14 @@
     margin-right: 2em;
 }
 
-.top-nav a {
+.top-nav a
+{
     text-decoration: none;
     color: cadetblue;
 }
 
-.bio {
+.bio
+{
     margin-right: 10em;
     line-height: 2em;
 }
