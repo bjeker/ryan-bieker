@@ -9,7 +9,6 @@ body {
     background-color: rgb(48, 48, 48);
     color: rgb(214, 214, 214);
 }
-}
 
 .introduction h1
 {
@@ -27,14 +26,6 @@ body {
     font-size: 16pt;
     color: rgb(121, 185, 187);
     line-height: 2em;
-}
-
-.fishing_img
-{
-    display: block;
-    margin-top: 4em;
-    margin-left: 10em;
-    width: 50%;
 }
 
 .top-nav
@@ -62,4 +53,14 @@ body {
 {
     margin-right: 10em;
     line-height: 2em;
+}
+
+.project-bio
+{
+    margin-right: 60em;
+    line-height: 2em;
+}
+
+.img {
+    justify-content: center;
 }
