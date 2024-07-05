@@ -1,8 +1,8 @@
 .introduction
 {
     font-family: sans-serif, Impact;
-    margin-top: 6em;
-    margin-left: 10em;
+    padding-top: 6em;
+    padding-left: 10em;
 }
 
 body {
@@ -20,18 +20,17 @@ body {
     font-size: 16pt;
 }
 
-.introduction li,a
+.contact li, a
 {
     text-decoration: none;
     font-size: 16pt;
     color: rgb(121, 185, 187);
-    line-height: 2em;
 }
 
 .top-nav
 {
-    margin-left: 2em;
-    margin-top: 2em;
+    padding-left: 2em;
+    padding-top: 2em;
 }
 
 .top-nav li
@@ -40,7 +39,7 @@ body {
     list-style-type: none;
     font-size: 1em;
     display: inline;
-    margin-right: 2em;
+    padding-right: 2em;
 }
 
 .top-nav a
@@ -55,12 +54,24 @@ body {
     line-height: 2em;
 }
 
-.project-bio
-{
-    margin-right: 60em;
-    line-height: 2em;
+.projects {
+    font-family: sans-serif, Impact;
+    padding-top: 6em;
+    padding-left: 10em;
+    display: flex;
+    align-items: center;
 }
 
-.img {
-    justify-content: center;
+.projects h1
+{
+    font-size: 32pt;
+}
+
+.projects span
+{
+    font-size: 16pt;
+}
+
+.project-img {
+    align-content: right;
 }
