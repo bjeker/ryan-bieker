@@ -56,8 +56,8 @@ body {
 
 .projects {
     font-family: sans-serif, Impact;
-    padding-top: 6em;
-    padding-left: 10em;
+    margin-top: 6em;
+    margin-left: 10em;
     display: flex;
     align-items: center;
 }
@@ -74,4 +74,9 @@ body {
 
 .project-img {
     align-content: right;
+    margin-left: 10em;
+}
+
+.project-text {
+    width: 40em;
 }
