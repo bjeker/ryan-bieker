@@ -1,8 +1,14 @@
 .introduction
 {
     font-family: sans-serif, Impact;
-    margin-top: 6em;
-    margin-left: 10em;
+    padding-top: 6em;
+    padding-left: 10em;
+}
+
+body {
+    background-color: rgb(48, 48, 48);
+    color: rgb(214, 214, 214);
+    margin-bottom: 10em;
 }
 
 .introduction h1
@@ -15,26 +21,17 @@
     font-size: 16pt;
 }
 
-.introduction li,a
+.contact li, a
 {
     text-decoration: none;
     font-size: 16pt;
-    color: cadetblue;
-    line-height: 2em;
-}
-
-.fishing_img
-{
-    display: block;
-    margin-top: 4em;
-    margin-left: 10em;
-    width: 50%;
+    color: rgb(121, 185, 187);
 }
 
 .top-nav
 {
-    margin-left: 2em;
-    margin-top: 2em;
+    padding-left: 2em;
+    padding-top: 2em;
 }
 
 .top-nav li
@@ -43,7 +40,7 @@
     list-style-type: none;
     font-size: 1em;
     display: inline;
-    margin-right: 2em;
+    padding-right: 2em;
 }
 
 .top-nav a
@@ -56,4 +53,32 @@
 {
     margin-right: 10em;
     line-height: 2em;
+}
+
+.projects {
+    font-family: sans-serif, Impact;
+    margin-top: 6em;
+    margin-left: 10em;
+    display: flex;
+    align-items: center;
+}
+
+.projects h1
+{
+    font-size: 32pt;
+}
+
+.projects span
+{
+    font-size: 16pt;
+}
+
+.project-img {
+    align-content: right;
+    margin-left: 10em;
+    cursor: pointer;
+}
+
+.project-text {
+    width: 40em;
 }
