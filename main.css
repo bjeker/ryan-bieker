@@ -15,6 +15,7 @@ body {
     color: rgb(214, 214, 214);
     margin-bottom: 10em;
     overflow-y: scroll;
+    padding-right: 5em;
 }
 
 .introduction h1
