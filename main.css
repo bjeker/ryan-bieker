@@ -3,6 +3,7 @@
     font-family: sans-serif, Impact;
     padding-top: 6em;
     padding-left: 10em;
+    display: none;
 }
 
 body {
@@ -74,17 +75,20 @@ body {
 .projects h1
 {
     font-size: 32pt;
+    display: none;
 }
 
 .projects span
 {
     font-size: 16pt;
+    display: none;
 }
 
 .project-img {
     align-content: right;
     margin-left: 10em;
     cursor: pointer;
+    display: none;
 }
 
 .project-text {
@@ -94,6 +98,7 @@ body {
 .languages {
     padding-top: 2em;
     text-align: center;
+    display: none;
 }
 
 .languages img {
