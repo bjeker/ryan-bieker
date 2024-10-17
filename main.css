@@ -1,9 +1,15 @@
-.introduction
-{
-    font-family: sans-serif, Impact;
-    padding-top: 6em;
-    padding-left: 10em;
-    display: none;
+@font-face {
+    font-family: "HelveticaNeueMedium";
+    src: url(Fonts/helvetica-neue-5/HelveticaNeueMedium.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "HelveticaNeueLight";
+    src: url(Fonts/helvetica-neue-5/HelveticaNeueLight.otf);
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
@@ -19,33 +25,39 @@ body {
     padding-right: 5em;
 }
 
-.introduction h1
-{
+.introduction {
+    font-family: HelveticaNeueMedium;
+    padding-top: 6em;
+    padding-left: 10em;
+    display: none;
+}
+
+.introduction h1 {
     font-size: 48pt;
 }
 
-.introduction p
-{
+.introduction h2 {
+    font-family: "HelveticaNeueLight";
+}
+
+.introduction p {
     font-size: 16pt;
     color: #e4e4e4;
 }
 
-.contact li, a
-{
+.contact li, a {
     text-decoration: none;
     font-size: 16pt;
     color: rgb(121, 185, 187);
     padding-top: 2em;
 }
 
-.top-nav
-{
+.top-nav {
     padding-left: 2em;
     padding-top: 2em;
 }
 
-.top-nav li
-{
+.top-nav li {
     font-family: sans-serif;
     list-style-type: none;
     font-size: 1em;
@@ -53,16 +65,15 @@ body {
     padding-right: 2em;
 }
 
-.top-nav a
-{
+.top-nav a {
     text-decoration: none;
     color: cadetblue;
 }
 
-.bio
-{
+.bio {
     margin-right: 10em;
     line-height: 2em;
+    font-family: HelveticaNeueLight;
 }
 
 .projects {
@@ -73,14 +84,12 @@ body {
     align-items: center;
 }
 
-.projects h1
-{
+.projects h1 {
     font-size: 32pt;
     display: none;
 }
 
-.projects span
-{
+.projects span {
     font-size: 16pt;
     display: none;
 }
@@ -94,6 +103,7 @@ body {
 
 .project-text {
     width: 40em;
+    font-family: HelveticaNeueLight;
 }
 
 .languages {
