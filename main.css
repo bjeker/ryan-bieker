@@ -1,12 +1,12 @@
 @font-face {
-    font-family: "HelveticaNeueMedium";
+    font-family: HelveticaNeueMedium;
     src: url(Fonts/helvetica-neue-5/HelveticaNeueMedium.otf);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "HelveticaNeueLight";
+    font-family: HelveticaNeueLight;
     src: url(Fonts/helvetica-neue-5/HelveticaNeueLight.otf);
     font-weight: normal;
     font-style: normal;
@@ -33,11 +33,11 @@ body {
 }
 
 .introduction h1 {
-    font-size: 48pt;
+    font-size: 36pt;
 }
 
 .introduction h2 {
-    font-family: "HelveticaNeueLight";
+    font-family: HelveticaNeueLight;
 }
 
 .introduction p {
@@ -48,6 +48,7 @@ body {
 .contact li, a {
     text-decoration: none;
     font-size: 16pt;
+    font-family: HelveticaNeueMedium;
     color: rgb(121, 185, 187);
     padding-top: 2em;
 }
@@ -58,7 +59,7 @@ body {
 }
 
 .top-nav li {
-    font-family: sans-serif;
+    font-family: HelveticaNeueMedium;
     list-style-type: none;
     font-size: 1em;
     display: inline;
@@ -77,7 +78,6 @@ body {
 }
 
 .projects {
-    font-family: sans-serif, Impact;
     margin-top: 6em;
     margin-left: 10em;
     display: flex;
@@ -85,6 +85,7 @@ body {
 }
 
 .projects h1 {
+    font-family: HelveticaNeueMedium;
     font-size: 32pt;
     display: none;
 }
