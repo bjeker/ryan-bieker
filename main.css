@@ -8,7 +8,7 @@
 
 body {
     /*background-color: rgb(48, 48, 48);*/
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), #243c41 url(imgs/monitor.png);
+    background: linear-gradient(rgba(51, 109, 148, 0.5), rgba(63, 63, 63, 0.5)), #000000 ;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -21,12 +21,13 @@ body {
 
 .introduction h1
 {
-    font-size: 32pt;
+    font-size: 48pt;
 }
 
 .introduction p
 {
     font-size: 16pt;
+    color: #e4e4e4;
 }
 
 .contact li, a
