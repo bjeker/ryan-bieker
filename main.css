@@ -4,8 +4,9 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(to right top, #000000, #181116, #241d28, #2a2a3d, #263a52, #254a66, #1d5b7a, #036d8c, #0383a8, #039ac4, #02b1e1, #00c9ff);
+    background-image: linear-gradient(to top, #171b1d, #1d282d, #23363e, #284450, #2d5363, #2e5e73, #2e6a84, #2d7695, #2780a7, #218bbb, #1b95ce, #199fe2);
     color: rgb(214, 214, 214);
+    margin: 0;
     margin-bottom: 10em;
     padding-right: 5em;
 }
@@ -42,12 +43,15 @@ body {
 }
 
 .top-nav {
-    padding-left: 2em;
+    position: fixed;
+    background-color: #171B1D;
+    width: 100%;
+    margin: 0;
+    padding: 0;
     padding-top: 2em;
 }
 
 .top-nav li {
-    font-family: Arial, Helvetica, sans-serif;
     list-style-type: none;
     font-size: 1em;
     display: inline;
@@ -55,8 +59,10 @@ body {
 }
 
 .top-nav a {
-    text-decoration: none;
     color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 16pt;
 }
 
 .bio {
@@ -77,6 +83,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 32pt;
     display: none;
+}
+
+.portfolio {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32pt;
+    display: none;
+    padding-top: 4em;
 }
 
 .projects span {
