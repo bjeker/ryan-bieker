@@ -1,3 +1,13 @@
+@font-face {
+    font-family: helvetica-light;
+    src: url(fonts/helvetica-light.ttf);
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url(fonts/Helvetica.ttf);
+}
+
 body {
     /*background-color: rgb(48, 48, 48);*/
     background: linear-gradient(rgba(51, 109, 148, 0.5), rgba(63, 63, 63, 0.5)), #000000 ;
@@ -60,7 +70,7 @@ body {
 .bio {
     margin-right: 10em;
     line-height: 2em;
-    font-family: Helvetica, sans-serif;
+    font-family: helvetica-light, sans-serif;
 }
 
 .projects {
@@ -90,7 +100,7 @@ body {
 
 .project-text {
     width: 40em;
-    font-family: Helvetica, sans-serif;
+    font-family: helvetica-light, sans-serif;
 }
 
 .languages {
