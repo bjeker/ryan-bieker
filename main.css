@@ -1,10 +1,10 @@
 body {
     /*background-color: rgb(48, 48, 48);*/
-    background: linear-gradient(rgba(51, 109, 148, 0.5), rgba(63, 63, 63, 0.5)), #000000 ;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    background-image: linear-gradient(to right top, #000000, #181116, #241d28, #2a2a3d, #263a52, #254a66, #1d5b7a, #036d8c, #0383a8, #039ac4, #02b1e1, #00c9ff);
     color: rgb(214, 214, 214);
     margin-bottom: 10em;
     overflow-y: scroll;
@@ -56,7 +56,7 @@ body {
 
 .top-nav a {
     text-decoration: none;
-    color: cadetblue;
+    color:rgb(255, 255, 255);
 }
 
 .bio {
