@@ -21,6 +21,13 @@ body {
     50% {opacity: 0;}
 }
 
+img {
+    transition: transform .2s ease-in-out;
+}
+img:hover {
+transform: rotate(10deg);
+}
+
 hr {
     display: none;
 }
