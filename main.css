@@ -8,14 +8,18 @@ body {
     color: #ffffff;
     margin: 0;
     margin-bottom: 10em;
-    padding-right: 5em;
 }
 
-hr {
-    display: flex;
-    justify-content: center;
-    margin: auto;
+.typeText::after {
+    content: "|";
+    animation: blink 1s step-end infinite;
 }
+
+@keyframes blink {
+    0%, 100% {opacity: 1;}
+    50% {opacity: 0;}
+}
+
 
 .introduction {
     font-family: Arial, Helvetica, sans-serif;
@@ -28,11 +32,15 @@ hr {
     font-size: 24pt;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 2em;
+    border-bottom: 2px solid white;
+    padding-bottom: 0.5em;
+    display: inline-block;
 }
 
 .introduction h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
+    margin-top: 4em;
 }
 
 .introduction p {
@@ -48,16 +56,13 @@ hr {
 }
 
 .top-nav {
-    position: fixed;
     background-color: #111111;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    padding-top: 2em;
-    display: flex;
-    width: 500px;
-    justify-content: center;
     border-radius: 25px;
+    width: fit-content;
+    margin: 2em auto;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .top-nav li {
@@ -89,7 +94,7 @@ hr {
 
 .projects h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 32pt;
+    font-size: 24pt;
     display: none;
 }
 
@@ -110,6 +115,7 @@ hr {
     margin-left: 10em;
     cursor: pointer;
     display: none;
+    margin-right: 5em;
 }
 
 .project-text {
