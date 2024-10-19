@@ -37,6 +37,10 @@ body {
     display: inline-block;
 }
 
+.no-bottom {
+    border-bottom: none !important;
+}
+
 .introduction h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
@@ -63,6 +67,7 @@ body {
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
+    display: none;
 }
 
 .top-nav li {
