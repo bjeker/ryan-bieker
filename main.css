@@ -1,14 +1,28 @@
 body {
-    /*background-color: rgb(48, 48, 48);*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(to right top, #000000, #181116, #241d28, #2a2a3d, #263a52, #254a66, #1d5b7a, #036d8c, #0383a8, #039ac4, #02b1e1, #00c9ff);
-    color: rgb(214, 214, 214);
-    margin-bottom: 10em;
-    overflow-y: scroll;
-    padding-right: 5em;
+    background-color: #292929;
+    color: #ffffff;
+    margin: 0;
+    margin-bottom: 5em;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.typeText::after {
+    content: "|";
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    0%, 100% {opacity: 1;}
+    50% {opacity: 0;}
+}
+
+hr {
+    display: none;
 }
 
 .introduction {
@@ -19,35 +33,45 @@ body {
 }
 
 .introduction h1 {
-    font-size: 36pt;
+    font-size: 24pt;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2em;
+    border-bottom: 2px solid white;
+    padding-bottom: 0.5em;
+    display: inline-block;
 }
 
 .introduction h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .introduction p {
     font-size: 16pt;
-    color: #e4e4e4;
 }
 
 .contact li, a {
     text-decoration: none;
     font-size: 16pt;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(121, 185, 187);
+    color: #ffffff;
     padding-top: 2em;
 }
 
 .top-nav {
-    padding-left: 2em;
-    padding-top: 2em;
+    background-color: rgba(17, 17, 17, 0.795);
+    border-radius: 50px;
+    width: fit-content;
+    margin: 2em auto;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
 }
 
 .top-nav li {
-    font-family: Arial, Helvetica, sans-serif;
     list-style-type: none;
     font-size: 1em;
     display: inline;
@@ -55,8 +79,10 @@ body {
 }
 
 .top-nav a {
-    text-decoration: none;
-    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 16pt;
+    color: #39Cf37;
 }
 
 .bio {
@@ -66,16 +92,22 @@ body {
     font-weight: lighter;
 }
 
+.portfolio {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32pt;
+    display: none;
+    padding-top: 4em;
+}
+
 .projects {
-    margin-top: 6em;
-    margin-left: 10em;
     display: flex;
     align-items: center;
+    padding-left: 10em;
 }
 
 .projects h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 32pt;
+    font-size: 24pt;
     display: none;
 }
 
@@ -89,12 +121,27 @@ body {
     margin-left: 10em;
     cursor: pointer;
     display: none;
+    margin-right: 5em;
 }
 
 .project-text {
     width: 40em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
+    display: none;
+}
+
+.projects li {
+    text-decoration: none;
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    list-style-type: none;
+    display: inline;
+    padding-right: 1em;
+    padding-left: 1em;
+    background-color: #111111;
+    border-radius: 25px;
 }
 
 .languages {
@@ -106,4 +153,9 @@ body {
 .languages img {
     padding-left: 0.125em;
     padding-right: 0.125em;
+    position: relative;
+    z-index: -1;
+    margin-bottom: -2em;
 }
+
+*{scroll-behavior: smooth;}
