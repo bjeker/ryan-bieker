@@ -44,7 +44,8 @@ hr {
 .introduction h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
-    margin-top: 4em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .introduction p {
@@ -60,8 +61,8 @@ hr {
 }
 
 .top-nav {
-    background-color: #111111;
-    border-radius: 25px;
+    background-color: rgba(17, 17, 17, 0.795);
+    border-radius: 50px;
     width: fit-content;
     margin: 2em auto;
     position: fixed;
@@ -81,6 +82,7 @@ hr {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     font-size: 16pt;
+    color: #39Cf37;
 }
 
 .bio {
@@ -154,6 +156,7 @@ hr {
     padding-right: 0.125em;
     position: relative;
     z-index: -1;
+    margin-bottom: -2em;
 }
 
 *{scroll-behavior: smooth;}
