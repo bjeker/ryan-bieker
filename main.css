@@ -108,7 +108,7 @@ hr {
 
 .projects {
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .projects h1 {
