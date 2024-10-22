@@ -8,7 +8,7 @@
     <script src="jquery-3.7.1.min.js"></script>
     <script src="animateText.js"></script>
 </head>
-<body>
+<body onload="typing()">
     <nav class="top-nav">
         <ul>
             <li><a href="#home-section">{ Home }</a></li>
@@ -18,7 +18,7 @@
         </ul>
     </nav>
     <div id="home-section" class="introduction">
-        <h1 class="typeText" style="border-bottom: none;"><span style="color: #39Cf37">root@portfolio:~$ </span>Hi, I'm Ryan Bieker</h1>
+        <h1 class="typeText" id ="typingName" style="border-bottom: none;"><span style="color: #39Cf37">root@portfolio:~$ </span></h1>
         <h2>I'm a <span style="color: #39Cf37">Software Engineer</span> building software and developing games</h2>
     </div>
     <div id="about-section" class="introduction">
