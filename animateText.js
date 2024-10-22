@@ -10,12 +10,32 @@ $(document).ready(function() {
 var i = 0;
 var text = "Hi, I'm Ryan Bieker";
 var speed = 50;
+var deleteMode = false;
+var deleteDelay = 3000;
 
 function typing() {
-    if (i < text.length) {
-        document.getElementById("typingName").innerHTML += text.charAt(i);
-        
-        i++;
-        setTimeout(typing, speed);
+    if (!deleteMode) {
+        if (i < text.length) {
+            document.getElementById("typingName").innerHTML += text.charAt(i);
+            
+            i++;
+            setTimeout(typing, speed);
+        }
+        else {
+            deleteMode = true;
+            setTimeout(typing, deleteDelay);
+        }
+    }
+    else {
+        if (i > 0) {
+            document.getElementById("typingName").innerHTML = document.getElementById("typingName").innerHTML.slice(0, -1);
+            i--;
+            setTimeout(typing, speed);
+        }
+        else {
+            deleteMode = false;
+            i = 0;
+            setTimeout(typing, speed)
+        }
     }
 }
