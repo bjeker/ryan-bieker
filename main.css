@@ -152,12 +152,11 @@ hr {
 .languages {
     padding-top: 2em;
     display: none;
+    text-align: center;
 }
 
 .languages img {
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
     z-index: -1;
     white-space: nowrap;
     margin-bottom: 1em;
