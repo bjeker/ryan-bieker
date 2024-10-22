@@ -5,10 +5,12 @@ body {
     background-size: cover;
     background-color: #292929;
     color: #ffffff;
-    margin: 0;
+    margin: auto;
+    padding-left: 5em;
+    padding-right: 5em;
     margin-bottom: 5em;
-    margin-left: 15em;
-    margin-right: 15em;
+    max-width: 960px;
+    min-width: 200px;
 }
 
 .typeText::after {
@@ -124,6 +126,7 @@ hr {
 
 .project-img {
     margin-left: 10em;
+    padding-right: 5em;
     cursor: pointer;
     display: none;
 }
