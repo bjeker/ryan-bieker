@@ -33,7 +33,12 @@ img:hover {
 }
 
 hr {
+    display: none;
     margin-top: 4em;
+}
+
+.break {
+    display: none;
 }
 
 .introduction {
