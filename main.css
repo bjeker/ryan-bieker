@@ -62,6 +62,10 @@ hr {
     font-size: 16pt;
 }
 
+.introduction footer {
+    text-align: center;
+}
+
 .contact li, a {
     text-decoration: none;
     font-size: 16pt;
