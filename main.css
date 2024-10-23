@@ -80,6 +80,17 @@ hr {
     min-width: 200px;
 }
 
+.contact {
+    text-align: center;
+    margin-top: 2em;;
+}
+
+.contact a {
+    margin-right: 4em;
+    margin-left: 4em;
+    min-width: 400px;
+}
+
 .top-nav {
     background-color: rgba(17, 17, 17, 0.795);
     border-radius: 50px;
@@ -155,8 +166,8 @@ hr {
     color: #ffffff;
     list-style-type: none;
     display: inline;
-    padding-right: 1em;
     padding-left: 1em;
+    padding-right: 1em;
     background-color: #111111;
     border-radius: 25px;
     white-space: nowrap;
