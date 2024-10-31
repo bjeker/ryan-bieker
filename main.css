@@ -1,194 +1,202 @@
 body {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-color: #292929;
-    color: #ffffff;
-    margin: auto;
-    padding-left: 5em;
-    padding-right: 5em;
-    margin-bottom: 5em;
-    max-width: 960px;
-    min-width: 200px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-color: #292929;
+  color: #ffffff;
+  margin: auto;
+  padding-left: 5em;
+  padding-right: 5em;
+  margin-bottom: 5em;
+  max-width: 960px;
+  min-width: 200px;
 }
 
 .typeText::after {
-    content: "|";
-    animation: blink 1s step-end infinite;
+  content: "|";
+  animation: blink 1s step-end infinite;
 }
 
 @keyframes blink {
-    0%, 100% {opacity: 1;}
-    50% {opacity: 0;}
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
 
 img {
-    transition: transform .2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 
 img:hover {
-    /*transform: rotate(10deg);*/
-    transform: scale(1.125, 1.125);
+  /*transform: rotate(10deg);*/
+  transform: scale(1.125, 1.125);
 }
 
 hr {
-    display: none;
-    margin-top: 4em;
+  display: none;
+  margin-top: 4em;
 }
 
 .break {
-    display: none;
+  display: none;
 }
 
 .introduction {
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 4em;
-    display: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 4em;
+  display: none;
 }
 
 .introduction h1 {
-    font-size: 24pt;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 2em;
-    border-bottom: 1px solid white;
-    padding-bottom: 0.5em;
-    display: inline-block;
+  font-size: 24pt;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 2em;
+  border-bottom: 1px solid white;
+  padding-bottom: 0.5em;
+  display: inline-block;
 }
 
 .introduction h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-    margin-top: 2em;
-    margin-bottom: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .introduction p {
-    font-size: 16pt;
+  font-size: 16pt;
 }
 
 .introduction footer {
-    text-align: center;
+  text-align: center;
 }
 
-.contact li, a {
-    text-decoration: none;
-    font-size: 16pt;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
-    padding-top: 2em;
-    min-width: 200px;
+.contact li,
+a {
+  text-decoration: none;
+  font-size: 16pt;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  padding-top: 2em;
+  min-width: 200px;
 }
 
 .contact {
-    text-align: center;
-    margin-top: 2em;;
+  text-align: center;
+  margin-top: 2em;
 }
 
 .contact a {
-    margin-right: 4em;
-    margin-left: 4em;
-    min-width: 400px;
+  margin-right: 4em;
+  margin-left: 4em;
+  min-width: 400px;
 }
 
 .top-nav {
-    background-color: rgba(17, 17, 17, 0.795);
-    border-radius: 50px;
-    width: 35em;
-    margin: 2em auto;
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    display: none;
-    z-index: 1;
+  background-color: rgba(17, 17, 17, 0.795);
+  border-radius: 50px;
+  width: 35em;
+  margin: 2em auto;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+  z-index: 1;
 }
 
 .top-nav li {
-    list-style-type: none;
-    font-size: 1em;
-    display: inline;
-    padding-right: 2em;
+  list-style-type: none;
+  font-size: 1em;
+  display: inline;
+  padding-right: 2em;
 }
 
 .top-nav a {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-    font-size: 16pt;
-    color: #39Cf37;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 16pt;
+  color: #39cf37;
 }
 
 .bio {
-    line-height: 2em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
+  line-height: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
 }
 
 .portfolio {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 32pt;
-    display: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32pt;
+  display: none;
 }
 
 .projects {
-    display: flex;
-    justify-content: left;
+  display: flex;
+  justify-content: left;
 }
 
 .projects h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24pt;
-    display: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24pt;
+  display: none;
 }
 
 .projects span {
-    font-size: 16pt;
-    display: flex;
-    margin-bottom: 0.5em;
+  font-size: 16pt;
+  display: flex;
+  margin-bottom: 0.5em;
 }
 
 .projects p {
-    font-size: 16pt;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
-    list-style-type: none;
-    display: inline-flex;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 0.125em;
-    padding-bottom: 0.125em;
-    background-color: #111111;
-    border-radius: 25px;
-    white-space: nowrap;
-    margin-right: 0.125em;
-    margin-top: 0;
+  font-size: 16pt;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  list-style-type: none;
+  display: inline-flex;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.125em;
+  padding-bottom: 0.125em;
+  background-color: #111111;
+  border-radius: 25px;
+  white-space: nowrap;
+  margin-right: 0.125em;
+  margin-top: 0;
 }
 
 .project-img {
-    margin-top: 0;
-    margin-left: 10em;
-    padding-right: 5em;
-    cursor: pointer;
-    display: none;
+  margin-top: 0;
+  margin-left: 10em;
+  padding-right: 5em;
+  cursor: pointer;
+  display: none;
 }
 
 .project-text {
-    width: 40em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-    display: none;
+  width: 40em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  display: none;
 }
 
 .languages {
-    padding-top: 2em;
-    display: none;
-    text-align: center;
+  padding-top: 2em;
+  display: none;
+  text-align: center;
 }
 
 .languages img {
-    display: inline-block;
-    z-index: -1;
-    white-space: nowrap;
-    margin-bottom: 1em;
+  display: inline-block;
+  z-index: -1;
+  white-space: nowrap;
+  margin-bottom: 1em;
 }
 
-*{scroll-behavior: smooth;}
+* {
+  scroll-behavior: smooth;
+}
