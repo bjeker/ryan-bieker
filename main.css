@@ -197,6 +197,12 @@ a {
   margin-bottom: 1em;
 }
 
+.playground img {
+  display: flex;
+  margin-top: 4em;
+  width: 90%;
+}
+
 * {
   scroll-behavior: smooth;
 }
