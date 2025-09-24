@@ -37,6 +37,11 @@ img:hover {
   transform: scale(1.125, 1.125);
 }
 
+.playground img:hover {
+  /*transform: rotate(10deg);*/
+  transform: scale(1, 1);
+}
+
 hr {
   display: none;
   margin-top: 4em;
@@ -105,16 +110,33 @@ a {
   min-width: 400px;
 }
 
-.top-nav {
-  background-color: rgba(17, 17, 17, 0.795);
-  border-radius: 50px;
-  width: 35em;
-  margin: 2em auto;
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-  display: none;
-  z-index: 1;
+@media (width >= 1250px) {
+  .top-nav {
+    background-color: rgba(17, 17, 17, 0.795);
+    border-radius: 50px;
+    width: 35em;
+    margin: 2em auto;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    z-index: 1;
+  }
+}
+
+@media (width <= 1250px) {
+  .top-nav {
+    scale: 1.5;
+    background-color: rgba(17, 17, 17, 0.795);
+    border-radius: 50px;
+    width: 35em;
+    margin: 4em auto;
+    position: fixed;
+    left: 65%;
+    transform: translateX(-50%);
+    display: none;
+    z-index: 1;
+  }
 }
 
 .top-nav li {
