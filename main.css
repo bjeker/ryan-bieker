@@ -37,6 +37,11 @@ img:hover {
   transform: scale(1.125, 1.125);
 }
 
+.playground img:hover {
+  /*transform: rotate(10deg);*/
+  transform: scale(1, 1);
+}
+
 hr {
   display: none;
   margin-top: 4em;
