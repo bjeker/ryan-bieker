@@ -124,7 +124,7 @@ a {
   }
 }
 
-@media (width <= 1250px) {
+@media (width < 1250px) {
   .top-nav {
     scale: 1.5;
     background-color: rgba(17, 17, 17, 0.795);
