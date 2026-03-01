@@ -232,22 +232,39 @@ a {
   }
 }
 
-.languages {
-  padding-top: 2em;
+.languages-carousel {
+  margin: 2em auto;
+  width: 90%;
+  display: flex;
+  overflow-x: auto;
+  
+}
+
+.languages-carousel::-webkit-scrollbar {
   display: none;
-  text-align: center;
+}
+
+.languages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
+  animation: spin 25s infinite linear;
+  padding-right: 1em;
 }
 
 .languages a {
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  flex: 0 0 2em;
+  height: 2em;
+  padding: 1em;
+  border-radius: .2em;
+  text-align: center;
+  align-content: center;
 }
 
-.languages img {
-  display: inline-block;
-  z-index: -1;
-  white-space: nowrap;
-  margin-bottom: 1em;
+@keyframes spin {
+  from {translate: 0;}
+  to {translate: -100%}
 }
 
 .playground img {
