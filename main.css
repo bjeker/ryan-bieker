@@ -237,7 +237,7 @@ a {
   width: 90%;
   display: flex;
   overflow-x: auto;
-  
+  touch-action: none;
 }
 
 .languages-carousel::-webkit-scrollbar {
