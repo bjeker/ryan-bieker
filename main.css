@@ -262,6 +262,41 @@ a {
   align-content: center;
 }
 
+.books-carousel {
+  margin: 2em auto;
+  display: flex;
+  overflow-x: auto;
+  touch-action: none;
+}
+
+.books-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.books {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
+  animation: spin 25s infinite linear;
+  padding-right: 1em;
+}
+
+.books a {
+  flex: 0 0 2em;
+  height: 25em;
+  padding: 1em;
+  padding-left: 4em;
+  padding-right: 8em;
+  border-radius: .2em;
+  text-align: center;
+  align-content: center;
+}
+
+.books img {
+  height: 100%;
+}
+
 @keyframes spin {
   from {translate: 0;}
   to {translate: -100%}
@@ -274,16 +309,6 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-.book-images {
-  padding-top: 5em;
-  display: flex;
-  justify-content: center;
-}
-
-.book-images img {
-  padding-left: 3em;
 }
 
 * {
