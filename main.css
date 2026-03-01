@@ -276,6 +276,16 @@ a {
   margin-right: auto;
 }
 
+.book-images {
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+}
+
+.book-images img {
+  padding-left: 3em;
+}
+
 * {
   scroll-behavior: smooth;
 }
