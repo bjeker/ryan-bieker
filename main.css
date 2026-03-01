@@ -171,6 +171,7 @@ a {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24pt;
   display: none;
+  padding-top: 2em;
 }
 
 .projects {
@@ -237,7 +238,7 @@ a {
   width: 90%;
   display: flex;
   overflow-x: auto;
-  
+  touch-action: none;
 }
 
 .languages-carousel::-webkit-scrollbar {
@@ -262,6 +263,45 @@ a {
   align-content: center;
 }
 
+.books {
+  padding-top: 2em;
+}
+
+.books-carousel {
+  margin: 2em auto;
+  display: flex;
+  overflow-x: auto;
+  touch-action: none;
+}
+
+.books-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.books-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
+  animation: spin 60s infinite linear;
+  padding-right: 1em;
+}
+
+.books-items a {
+  flex: 0 0 2em;
+  height: 25em;
+  padding: 1em;
+  padding-left: 4em;
+  padding-right: 6em;
+  border-radius: .2em;
+  text-align: center;
+  align-content: center;
+}
+
+.books-items img {
+  height: 90%;
+}
+
 @keyframes spin {
   from {translate: 0;}
   to {translate: -100%}
@@ -274,6 +314,10 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.playground h1 {
+  padding-top: 2em;
 }
 
 * {
