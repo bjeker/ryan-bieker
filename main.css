@@ -312,7 +312,7 @@ a {
   height: 90%;
 }
 
-.books-items img:hover, img:active {
+.books-items img:hover, .books-items img:active {
   height: 90%;
   transform-style: preserve-3d;
   transform: rotateY(2deg);
