@@ -212,8 +212,6 @@ a {
   display: flex;
   margin-top: 5em;
   margin-left: 0em;
-  padding-right: 5em;
-  padding-left: 10em;
   cursor: pointer;
   display: none;
   flex: 0 0 auto;
@@ -226,6 +224,7 @@ a {
     font-weight: lighter;
     display: none;
     flex: 0 0 20em;
+    padding-right: 12em;
   }
 }
 
@@ -236,6 +235,7 @@ a {
     font-weight: lighter;
     display: none;
     flex: 0 0 15em;
+    padding-right: 4em;
   }
 }
 
