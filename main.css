@@ -17,6 +17,7 @@ body {
   min-width: 200px;
   top: 0;
   left: 0;
+  min-height: 100dvh;
 }
 
 #background {
@@ -364,4 +365,8 @@ a {
 @keyframes spin {
   from {translate: 0;}
   to {translate: -100%}
+}
+
+footer {
+  padding-bottom: 5em;
 }
