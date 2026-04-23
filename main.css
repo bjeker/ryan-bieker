@@ -1,5 +1,10 @@
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
+  min-height: 100dvh;
 }
 
 .content {
@@ -10,10 +15,12 @@ body {
   margin-bottom: 5em;
   max-width: 960px;
   min-width: 200px;
+  top: 0;
+  left: 0;
 }
 
 #background {
-  min-height: 100%;
+  min-height: 100dvh;
   width: 100%;
   z-index: -1;
   position: fixed;
